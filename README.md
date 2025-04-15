@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+Welcome to the Fitness App 👋
+This is a React Native project built with Expo and React Navigation. The app helps users manage their bookings, earnings, and profile status. It includes features like dark mode, upcoming bookings, and the ability to add new slots.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Get Started
+1. Install Dependencies
+Make sure you have Node.js installed. Then, run the following command to install the necessary dependencies:
 
-## Get started
+bash
+Copy
+Edit
+npm install
+2. Start the App
+Once dependencies are installed, start the app with the following command:
 
-1. Install dependencies
+bash
+Copy
+Edit
+npx expo start
+This will launch the development server and provide options to run the app on:
 
-   ```bash
-   npm install
-   ```
+Development build
 
-2. Start the app
+Android emulator
 
-   ```bash
-    npx expo start
-   ```
+iOS simulator
 
-In the output, you'll find options to open the app in a
+Expo Go, a limited sandbox for testing app development.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+You can start developing by editing the files inside the app directory.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Project Structure
+The project uses file-based routing. You'll primarily work within the app folder.
 
-## Get a fresh project
+Dashboard Screen: Displays the greeting, today's bookings, earnings, upcoming slots, and a button to add new slots.
 
-When you're ready, run:
+Dark/Light Mode: The app includes a toggle button to switch between dark and light themes.
 
-```bash
+Add Slot Screen: Navigate to a screen where you can add new bookings or slots (dummy data for now).
+
+Reset Project
+When you're ready to reset the project, you can run:
+
+bash
+Copy
+Edit
 npm run reset-project
-```
+This will move the starter code to the app-example directory and create a blank app directory where you can begin your custom development.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Learn More
+To learn more about developing with Expo, check out the following resources:
 
-## Learn more
+Expo Documentation: Learn the basics or dive into advanced topics.
 
-To learn more about developing your project with Expo, look at the following resources:
+Learn Expo Tutorial: Follow a step-by-step guide to create a project that runs on Android, iOS, and the web.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Join the Community
+Expo on GitHub: Contribute and check out the open-source platform.
 
-## Join the community
+Expo Discord Community: Chat with other Expo users and ask questions.
 
-Join our community of developers creating universal apps.
+Project Summary:
+This project is a React Native app built using Expo, React Navigation, and a simple dark mode toggle. It is a basic management dashboard designed for fitness professionals to manage their bookings, view earnings, and schedule new slots. The app includes features like user profile status, dark/light mode toggle, and the ability to add new slots for future bookings.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Feel free to modify and build upon this template for your own needs!
+
+This revised summary should help guide users on setting up and understanding the purpose of the project. Let me know if you need further customization or any additional features!
